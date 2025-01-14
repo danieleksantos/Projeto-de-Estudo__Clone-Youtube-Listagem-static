@@ -19,3 +19,6 @@ A interface reproduz a listagem de vídeos do Youtube de forma estática, utiliz
 - **CSS3**: Estilização utilizando Flexbox e Grid Layout.
 
 ---
+
+[Projeto de Estudo - Clone Youtube Listagem](https://danieleksantos.github.io/Projeto-de-Estudo__Clone-Youtube-Listagem-static/)
+
