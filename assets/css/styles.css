@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.container {
+    margin: 1rem;
+    display: grid;
+    gap: 1rem;
+    background-color: #f6f4f4;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "sidebar sugestion1 sugestion2 sugestion3 sugestion4"
+        "sidebar sugestion5 sugestion6 sugestion7 sugestion8"
+        "sidebar sugestion9 sugestion10 sugestion11 sugestion12";
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+.menu__left {
+    display: flex;
+    gap: 2rem;
+}
+
+.left__menu-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.left__youtube-icon {
+    width: 90px;
+    height: 20px;
+}
+
+.menu__center {
+    display: flex;
+    flex-direction: row;
+}
+
+.center__search2 {
+    border: 1px solid #CCCCCC;
+    width: 57px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 3rem 3rem 0;
+}
+
+.center__search1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    width: 348px;
+    height: 40px;
+    border-radius: 3rem 0 0 3rem;
+}
+
+.bi.bi-keyboard {
+    padding: .2rem .5rem;
+    font-size: 1.3rem;
+}
+
+.search__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.center__mic {
+    background-color: #f6f4f4;
+    border-radius: 2rem;
+    align-content: center;
+    padding: .2rem .8rem;
+    margin-left: 1rem;
+}
+
+.bi-mic-fill {
+    width: 24px;
+    height: 24px;
+}
+
+
+.menu__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.right__add {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    background-color: #f6f4f4;
+    border-radius: 2rem;
+    align-content: center;
+    padding: .2rem .9rem;
+    margin-left: 1rem;
+    font-weight: 450;
+    font-size: .875rem;
+}
+
+.right__plus {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.bi-bell {
+    font-size: 1.2rem;
+}
+
+.right__profile {
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    grid-area: sidebar;
+    background-color: #ffffff;
+}
+
+.sidebar__link {
+    font-size: .875rem;
+    margin-left: 1rem;
+}
+
+.sidebar__icon {
+    width: 1.6rem;
+}
+
+.sidebar__home,
+.sidebar__explorer,
+.sidebar__subscriptions,
+.sidebar__music,
+.sidebar__like,
+.sidebar__later,
+.sidebar__downloads,
+.sidebar__movies,
+.sidebar__learning,
+.sidebar__sports {
+    display: flex;
+    align-items: center;
+}
+
+
+.infos__avatar {
+    width: 2.2rem;
+    height: 2rem;
+    border-radius: 1.2rem;
+}
+
+.sugestion__infos {
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+}
+
+.infos__title {
+    width: 600;
+    font-size: .875rem;
+}
+
+.infos__description {
+    width: 400;
+    font-size: .75rem;
+    padding-top: .3rem;
+}
+
+.infos__description span {
+    opacity: .7;
+}
+
+
+
+.sugestion1,
+.sugestion2,
+.sugestion3,
+.sugestion4,
+.sugestion5,
+.sugestion6,
+.sugestion7,
+.sugestion8,
+.sugestion9,
+.sugestion10,
+.sugestion11,
+.sugestion12 {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+
+.sugestion1 {
+    grid-area: sugestion1;
+}
+
+.sugestion2 {
+    grid-area: sugestion2;
+}
+
+.sugestion3 {
+    grid-area: sugestion3;
+}
+
+.sugestion4 {
+    grid-area: sugestion4;
+}
+
+.sugestion5 {
+    grid-area: sugestion5;
+}
+
+.sugestion6 {
+    grid-area: sugestion6;
+}
+
+.sugestion7 {
+    grid-area: sugestion7;
+}
+
+.sugestion8 {
+    grid-area: sugestion8;
+}
+
+.sugestion9 {
+    grid-area: sugestion9;
+}
+
+.sugestion10 {
+    grid-area: sugestion10;
+}
+
+.sugestion11 {
+    grid-area: sugestion11;
+}
+
+.sugestion12 {
+    grid-area: sugestion12;
+}
