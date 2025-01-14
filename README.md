@@ -20,5 +20,5 @@ A interface reproduz a listagem de vídeos do Youtube de forma estática, utiliz
 
 ---
 
-[Projeto de Estudo - Clone Youtube Listagem](https://danieleksantos.github.io/Projeto-de-Estudo__Clone-Youtube-Listagem-static/)
+[Página do Projeto de Estudo - Clone Youtube Listagem](https://danieleksantos.github.io/Projeto-de-Estudo__Clone-Youtube-Listagem-static/)
 
